@@ -1,0 +1,5 @@
+dashboard/
+Dataset(TSV)/
+*.db
+.docx
+.env
