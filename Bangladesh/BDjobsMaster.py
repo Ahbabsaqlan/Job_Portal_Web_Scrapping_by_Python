@@ -19,12 +19,12 @@ import warnings
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 # ================= CONFIGURATION ================= #
-BASE_DIR = "/Users/jihan/JobData"
+BASE_DIR = "/Users/jihan/JobWebScrapers"
 PAGES_TO_SCRAPE = 55
 JOBS_PER_PAGE = 100
 API_URL_TEMPLATE = "https://gateway.bdjobs.com/ActtivejobsTest/api/JobSubsystem/jobDetails?jobId={}"
 REQUEST_DELAY = 0.3
-MASTER_FILE = os.path.join(BASE_DIR, "bdjobs_master_data.xlsx")
+MASTER_FILE = os.path.join(BASE_DIR, "Dataset/bdjobs_master_data.xlsx")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")
 

@@ -13,8 +13,8 @@ from tqdm import tqdm # <-- Ensure tqdm is imported
 
 # ... (CONFIGURATION and LOGGING SETUP remain the same) ...
 # ================= CONFIGURATION ================= #
-BASE_DIR = "/Users/jihan/JobData"
-MASTER_FILE = os.path.join(BASE_DIR, "rozee_master_data.xlsx")
+BASE_DIR = "/Users/jihan/JobWebScrapers"
+MASTER_FILE = os.path.join(BASE_DIR, "Dataset/rozee_master_data.xlsx")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")
 

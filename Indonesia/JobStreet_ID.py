@@ -13,7 +13,7 @@ from collections import defaultdict
 from tqdm import tqdm
 
 # ================= CONFIGURATION: INDONESIA (ID) ================= #
-BASE_DIR = "/Users/jihan/JobData"
+BASE_DIR = "/Users/jihan/JobWebScrapers"
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")
 
@@ -22,7 +22,7 @@ HOST = "https://id.jobstreet.com"
 SITE_KEY = "ID-Main"
 LOCALE = "en-ID"
 TIMEZONE = "Asia/Jakarta"
-MASTER_FILE = os.path.join(BASE_DIR, "jobstreet_id_master_data.xlsx")
+MASTER_FILE = os.path.join(BASE_DIR, "Dataset/jobstreet_id_master_data.xlsx")
 LOG_FILE_PREFIX = "jobstreet_id_run"
 DISPLAY_NAME = "JobStreet (ID)"
 API_HEADERS = { "seek-request-brand": "jobstreet", "seek-request-country": "ID", "X-Seek-Site": "chalice" }

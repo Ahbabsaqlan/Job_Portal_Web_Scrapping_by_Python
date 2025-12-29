@@ -23,7 +23,7 @@ import seaborn as sns
 import pandas as pd
 
 # ================= CONFIGURATION ================= #
-BASE_DIR = "/Users/jihan/JobData"
+BASE_DIR = "/Users/jihan/JobWebScrapers"
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 

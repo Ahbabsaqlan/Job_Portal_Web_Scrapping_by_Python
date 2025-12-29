@@ -1,0 +1,15 @@
+/* (This CSS is more advanced to support the new layout) */
+body { font-family: system-ui, sans-serif; background-color: #f4f6f9; color: #1e293b; margin: 0; }
+header { background: #fff; padding: 20px 40px; border-bottom: 1px solid #e2e8f0; text-align: center; }
+.kpi-container { display: flex; justify-content: center; gap: 30px; margin-top: 20px; }
+.kpi-card { background: #f8fafc; padding: 15px 25px; border-radius: 8px; border: 1px solid #e2e8f0; }
+.kpi-card h3 { margin: 0; font-size: 1rem; color: #64748b; }
+.kpi-card p { margin: 5px 0 0; font-size: 2rem; font-weight: 600; color: #0f172a; }
+main { padding: 30px; }
+.controls { margin-bottom: 30px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.controls label { font-weight: 600; margin-right: 10px; }
+#country-select { padding: 8px 12px; border-radius: 6px; border: 1px solid #cbd5e1; }
+.chart-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 30px; }
+.chart-box { background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.chart-box h2 { margin-top: 0; text-align: center; color: #334155; }
+canvas { max-height: 400px; }

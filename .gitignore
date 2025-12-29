@@ -1,5 +1,9 @@
-dashboard/
-Dataset(TSV)/
+
+*.docx
 *.db
-.docx
+
 .env
+Dataset/
+__pycache__/
+Dataset(TSV)/
+README1.md

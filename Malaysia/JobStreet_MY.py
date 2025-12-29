@@ -15,7 +15,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # ================= CONFIGURATION: MALAYSIA (MY) ================= #
-BASE_DIR = "/Users/jihan/JobData"
+BASE_DIR = "/Users/jihan/JobWebScrapers"
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")
 
@@ -24,7 +24,7 @@ HOST = "https://my.jobstreet.com"
 SITE_KEY = "MY-Main"
 LOCALE = "en-MY"
 TIMEZONE = "Asia/Kuala_Lumpur"
-MASTER_FILE = os.path.join(BASE_DIR, "jobstreet_my_master_data.xlsx")
+MASTER_FILE = os.path.join(BASE_DIR, "Dataset/jobstreet_my_master_data.xlsx")
 LOG_FILE_PREFIX = "jobstreet_my_run"
 DISPLAY_NAME = "JobStreet (MY)"
 API_HEADERS = {"seek-request-brand": "jobstreet", "seek-request-country": "MY", "X-Seek-Site": "chalice"}

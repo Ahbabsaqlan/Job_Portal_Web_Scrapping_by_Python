@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Job Market Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Global Job Market Dashboard</h1>
+        <div class="kpi-container">
+            <div class="kpi-card"><h3>Total Jobs</h3><p id="kpi-total-jobs">...</p></div>
+            <div class="kpi-card"><h3>Companies</h3><p id="kpi-total-companies">...</p></div>
+            <div class="kpi-card"><h3>Countries</h3><p id="kpi-total-countries">...</p></div>
+        </div>
+    </header>
+    <main>
+        <div class="controls">
+            <label for="country-select">Filter by Country:</label>
+            <select id="country-select">
+                <option value="All">All Countries</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Pakistan">Pakistan</option>
+            </select>
+        </div>
+        <div class="chart-grid">
+            <div class="chart-box"><h2>Job Posting Trend</h2><canvas id="trendChart"></canvas></div>
+            <div class="chart-box"><h2>Top Companies</h2><canvas id="companyChart"></canvas></div>
+            <div class="chart-box"><h2>Top Locations</h2><canvas id="locationChart"></canvas></div>
+            <div class="chart-box"><h2>Regional Distribution</h2><canvas id="regionChart"></canvas></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
