@@ -19,7 +19,7 @@ import warnings
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 # ================= CONFIGURATION ================= #
-BASE_DIR = "/Users/jihan/JobWebScrapers"
+BASE_DIR = "/Users/jihan/JobWebScrapper"
 PAGES_TO_SCRAPE = 55
 JOBS_PER_PAGE = 100
 API_URL_TEMPLATE = "https://gateway.bdjobs.com/ActtivejobsTest/api/JobSubsystem/jobDetails?jobId={}"

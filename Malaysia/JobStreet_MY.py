@@ -15,7 +15,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # ================= CONFIGURATION: MALAYSIA (MY) ================= #
-BASE_DIR = "/Users/jihan/JobWebScrapers"
+BASE_DIR = "/Users/jihan/JobWebScrapper"
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")
 

@@ -13,7 +13,7 @@ from collections import defaultdict
 from tqdm import tqdm
 
 # ================= CONFIGURATION: PHILIPPINES (PH) ================= #
-BASE_DIR = "/Users/jihan/JobWebScrapers"
+BASE_DIR = "/Users/jihan/JobWebScrapper"
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")
 

@@ -20,7 +20,7 @@ from playwright.sync_api import sync_playwright
 # -------------------
 
 # ================= CONFIGURATION ================= #
-BASE_DIR = "/Users/jihan/JobWebScrapers"
+BASE_DIR = "/Users/jihan/JobWebScrapper"
 MASTER_FILE = os.path.join(BASE_DIR, "Dataset/naukri_master_data.xlsx")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 SUMMARY_FILE = os.path.join(BASE_DIR, "run_summary.json")

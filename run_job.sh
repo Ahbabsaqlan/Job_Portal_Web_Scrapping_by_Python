@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ================= CONFIGURATION ================= #
-BASE_DIR="/Users/jihan/JobWebScrapers"
+BASE_DIR="/Users/jihan/JobWebScrapper"
 PYTHON_BIN="/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
 
 # --- Script file paths ---
