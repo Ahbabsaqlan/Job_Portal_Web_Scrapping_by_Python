@@ -1,9 +1,47 @@
 {
     "BDJobs": {
+        "status": "No new jobs",
+        "existing_jobs": 6759,
+        "newly_added": 0,
+        "new_total": 6759,
+        "issues": [
+            "Failed to collect IDs from page 1."
+        ]
+    },
+    "Noukri.com": {
+        "status": "Completed (No Details)",
+        "existing_jobs": 350469,
+        "newly_added": 0,
+        "new_total": 350469,
+        "issues": [
+            "Search Token Extraction Failed (Used Fallback)",
+            "Scraping finished but no details were captured (Check bot detection)"
+        ]
+    },
+    "Rozee.pk": {
         "status": "Completed",
-        "existing_jobs": 9448,
-        "newly_added": 22,
-        "new_total": 9470,
+        "existing_jobs": 86916,
+        "newly_added": 148,
+        "new_total": 87064,
         "issues": []
+    },
+    "JobStreet (SG)": {
+        "status": "Completed with issues",
+        "existing_jobs": 356005,
+        "newly_added": 3399,
+        "new_total": 359404,
+        "issues": [
+            "Failed to fetch details for 1 out of 3400 attempted scrapes."
+        ]
+    },
+    "JobStreet (PH)": {
+        "status": "Completed with issues",
+        "existing_jobs": 386484,
+        "newly_added": 1601,
+        "new_total": 388085,
+        "issues": [
+            "Failed to fetch ID page 323: HTTPSConnectionPool(host='jobsearch-api.cloud.seek.com.au', port=443): Read timed out. (read timeout=20)",
+            "Failed to fetch details for 1699 out of 3300 attempted scrapes."
+        ]
     }
 }
